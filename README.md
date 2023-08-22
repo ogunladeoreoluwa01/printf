@@ -1,24 +1,27 @@
-    This repository contains work on our first team project by Ugwuanyi Afam and Sikiru Jimoh. This repository contains  source code for our  own printf function named "_printf".
-    _Printf is a very versatile function. It can print almost anything, sorry it can print everything that we give to it. it can be used to print a string, an integer, a float, a char, a double, and just about any other kind of datatype that might just enter our head. In this repository, we hope to create a function that is as versatile as the printf function with the ability to print anything we pass to it. The funtion will follow the printf format, the only noticeable difference will be the underscore behind the printf function. THe following format specifiers are handled in this function:
+<!-- @format -->
 
-    -> %c - prints a character
+# Custom Print Formatter - \_printf Function
 
-    -> %d - prints an integer
+Welcome to the custom print formatter repository, which contains the source code for the versatile `_printf` function. This function is designed to provide flexible printing capabilities similar to the standard `printf` function, with added features.
 
-    -> %s - prints a string
+## Introduction
 
-    -> %f - prints a float
+The `_printf` function is capable of handling various data types and format specifiers. It can print characters, integers, strings, floats, hexadecimal values, and more. This project aims to create a function that offers the flexibility of the `printf` function while adhering to a similar format specifier syntax.
 
-    -> %x - prints a hexadecimal
+## Features
 
+Our `_printf` function supports the following format specifiers:
 
-    This is the syntax for our printf function
+- `%c`: Prints a character.
+- `%d`: Prints an integer.
+- `%s`: Prints a string.
+- `%f`: Prints a float.
+- `%x`: Prints a hexadecimal value.
 
-    int _printf(const char *s,...)
-    _it is a variadic function so as to be able to take any number of arguments we pass to it.
+## Syntax
 
-    Copyright: The directories, files and codes found in this repository are joint work of the named authors below. DO NOT attempt  to reproduce or copy the codes without proper credit to the authors.
+```c
+int _printf(const char *format, ...);
+```
 
-    This repository and all it contains are part of the ALX SE program projects. Hence it is open source and subject to reviews and constructive critcism
-
-    Authors: Sikiru Jimoh, Ugwuanyi Afam
+# The `_printf` function is variadic, allowing it to accept a variable number of arguments.
